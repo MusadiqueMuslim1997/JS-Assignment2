@@ -1,4 +1,34 @@
-// Chapter 6-9
+// Chapter 5
+
+  // Question : 1
+
+//   var a=3
+//   var b=5
+//   var c=a+b
+//   document.write("The sum of 3 and 5 is" + " " + c)
+
+// Question : 2
+
+
+//   var a=3
+//   var b=5
+//   var c=a-b
+//   document.write("The subtraction of 3 and 5 is" + " " + c)
+
+//   var a=3
+//   var b=5
+//   var c=a*b
+//   document.write("The multiplication of 3 and 5 is" + " " + c)
+
+//   var a=3
+//   var b=5
+//   var c=a/b
+//   document.write("The division of 3 and 5 is" + " " + c)
+
+// var a=5
+// var b=3
+// var c=a%b
+// document.write("The remainder of 5 and 3 is" + " " + c)
 
 
 
