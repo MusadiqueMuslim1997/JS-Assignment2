@@ -24,13 +24,46 @@
 //   var b=5
 //   var c=a/b
 //   document.write("The division of 3 and 5 is" + " " + c)
-
-// var a=5
-// var b=3
+//  a = +prompt("Enter first value")
+//  b = +prompt("Enter second value")
 // var c=a%b
-// document.write("The remainder of 5 and 3 is" + " " + c)
+// document.write("The remainder of" + " " + a +  " and" + " " + " " + b   + " "+ "is" + " " + (c))
 
 
+// Question : 3
+
+// var a 
+// document.write("Vale after declaration is:" + " " + a + "<br>")
+// var a=5
+// document.write("Initial Value:" + " " + a + "<br>")
+// document.write("Value after increament is:" + " " +  ++a + "<br>")
+// var a = a+7
+// document.write("Value after addition is:" + " " + a + "<br>")
+// document.write("Value after decreament is:" + " " + --a + "<br>")
+// var a= a%3
+// document.write("The remainder is:" + " " + a)
+
+
+ // Question : 4
+
+//  var price =  600
+//  totalcost = 600*5
+//  document.write("Total Cost to buy 5 tickets to movie is " + totalcost +" PKR" )
+
+// Question : 5
+
+
+a = +prompt("Enter Table Number",5)
+document.write(a + " x " + " 1 " + " = " + a*1 + "<br>")
+document.write(a + " x " + " 2 " + " = " + a*2 + "<br>")
+document.write(a + " x " + " 3 " + " = " + a*3 + "<br>")
+document.write(a + " x " + " 4 " + " = " + a*4 + "<br>")
+document.write(a + " x " + " 5 " + " = " + a*5 + "<br>")
+document.write(a + " x " + " 6 " + " = " + a*6 + "<br>")
+document.write(a + " x " + " 7 " + " = " + a*7 + "<br>")
+document.write(a + " x " + " 8 " + " = " + a*8 + "<br>")
+document.write(a + " x " + " 9 " + " = " + a*9 + "<br>")
+document.write(a + " x " + " 10 " + " = " + a*10 + "<br>")
 
 
 
