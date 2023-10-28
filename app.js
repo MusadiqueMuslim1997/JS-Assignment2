@@ -53,17 +53,28 @@
 // Question : 5
 
 
-a = +prompt("Enter Table Number",5)
-document.write(a + " x " + " 1 " + " = " + a*1 + "<br>")
-document.write(a + " x " + " 2 " + " = " + a*2 + "<br>")
-document.write(a + " x " + " 3 " + " = " + a*3 + "<br>")
-document.write(a + " x " + " 4 " + " = " + a*4 + "<br>")
-document.write(a + " x " + " 5 " + " = " + a*5 + "<br>")
-document.write(a + " x " + " 6 " + " = " + a*6 + "<br>")
-document.write(a + " x " + " 7 " + " = " + a*7 + "<br>")
-document.write(a + " x " + " 8 " + " = " + a*8 + "<br>")
-document.write(a + " x " + " 9 " + " = " + a*9 + "<br>")
-document.write(a + " x " + " 10 " + " = " + a*10 + "<br>")
+// a = +prompt("Enter Table Number",5)
+// document.write(a + " x " + " 1 " + " = " + a*1 + "<br>")
+// document.write(a + " x " + " 2 " + " = " + a*2 + "<br>")
+// document.write(a + " x " + " 3 " + " = " + a*3 + "<br>")
+// document.write(a + " x " + " 4 " + " = " + a*4 + "<br>")
+// document.write(a + " x " + " 5 " + " = " + a*5 + "<br>")
+// document.write(a + " x " + " 6 " + " = " + a*6 + "<br>")
+// document.write(a + " x " + " 7 " + " = " + a*7 + "<br>")
+// document.write(a + " x " + " 8 " + " = " + a*8 + "<br>")
+// document.write(a + " x " + " 9 " + " = " + a*9 + "<br>")
+// document.write(a + " x " + " 10 " + " = " + a*10 + "<br>")
+
+
+// Question : 6
+
+ fahrenheit = +prompt("Enter Temperature Celcius Convert into Fahrenheit")
+ celcius = +prompt("Enter Temperature FahrenheitConvert into Celcius")
+var f = (fahrenheit *9/5) + 32 
+document.write(fahrenheit + "°C " + " is " + (f) + "°F" + "<br>")
+var c = (celcius - 32) * 5/9
+document.write(celcius + "°F " + " is " + (c) + "°C")
+ 
 
 
 
