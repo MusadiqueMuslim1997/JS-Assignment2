@@ -68,13 +68,54 @@
 
 // Question : 6
 
- fahrenheit = +prompt("Enter Temperature Celcius Convert into Fahrenheit")
- celcius = +prompt("Enter Temperature FahrenheitConvert into Celcius")
-var f = (fahrenheit *9/5) + 32 
-document.write(fahrenheit + "°C " + " is " + (f) + "°F" + "<br>")
-var c = (celcius - 32) * 5/9
-document.write(celcius + "°F " + " is " + (c) + "°C")
+//  fahrenheit = +prompt("Enter Temperature Celcius Convert into Fahrenheit")
+//  celcius = +prompt("Enter Temperature FahrenheitConvert into Celcius")
+// var f = (fahrenheit *9/5) + 32 
+// document.write(fahrenheit + "°C " + " is " + (f) + "°F" + "<br>")
+// var c = (celcius - 32) * 5/9
+// document.write(celcius + "°F " + " is " + (c) + "°C")
  
+
+// Question : 7
+
+// price1 = 650
+// price2 = 100
+// charge = 100
+
+// item1 = +prompt("Orederd for quantity of Item 1")
+// item2 = +prompt("Orederd for quantity of Item 2")
+// document.write("Price of Item 1 is " + price1 + "<br>")
+// document.write("Ordered of Item 1 is " + item1 + "<br> " )
+// document.write("Price of Item 2 is " + price2 + "<br>")
+// document.write("Ordered of Item 2 is " + item2 + "<br> " )
+// document.write("Shipping Charges is " +charge + "<br> " +"<br>" )
+ 
+// document.write("Total cost of your order is " + (price1*item1 + price2*item2 + charge))
+
+
+// Question : 8
+
+// tm = +prompt("Enter your total marks")
+// mo = +prompt("Enter your Mark Obtained")
+// per = mo/tm*100
+// document.write("Total Marks " + tm + "<br>")
+// document.write("Marks Obtained " +mo + "<br>")
+// document.write("Percentage : " + per+"%")
+
+
+
+// Question : 9
+// document.write("Total Currency of PKR is " +  (10*104.80 + 25*28 ))
+
+// Question : 11
+
+a = +prompt("Enyter Current Year")
+b = +prompt("Enyter Your Birth Year")
+document.write("Current Year: " + a + "<br>")
+document.write("Birth Year: " + b + "<br>")
+document.write("Your Age is: " + (a-b))
+
+
 
 
 
